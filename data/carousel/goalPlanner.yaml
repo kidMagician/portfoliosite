@@ -1,0 +1,10 @@
+weight: 2
+title: "GoalPlanner"
+description: >
+  <ul class="list-style-none">
+     <li>시간과 업무를 관리 </li>
+     <li>안드로이드 어플리케이션</li>
+     <li>장기계획 및 단기계획 관리 </li>
+     <li>시간통계 및 일정 알람</li>
+   </ul>
+image: "img/carousel/goalPlanner.png"

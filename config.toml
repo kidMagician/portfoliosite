@@ -1,7 +1,7 @@
 baseurl = "https://example.org"
 title = "Never Stop Study"
 theme = "hugo-universal-theme"
-themesDir = "./themes"
+themesDir = "./"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 disqusShortname = "devcows"
@@ -22,6 +22,11 @@ paginate = 10
 	url  = "/contact/"
 	weight = 2
 
+[[menu.main]]
+    name = "Blog"
+    url  = "/blog/"
+    weight = 3
+
 [[menu.topbar]]
     weight = 1
     name = "Git-Hub"
@@ -30,7 +35,7 @@ paginate = 10
 
 [[menu.topbar]]
     weight = 2
-    name ="Blog"
+    name ="good"
     url="https://blog.naver.com/kid_magician"
     pre ="<i class='fa fa-2x fa-pencil-square-o' ></i>"
 
@@ -58,9 +63,15 @@ paginate = 10
 
 	address = "<p>Contact us on 010 2659 2330 or kid_magician@naver.com.<br></p>"
 
+[Permalinks]
+    blog = "/blog/:filename/"
+
 [params.topbar]
     	enable = true
         text = "<p>Contact us on 010 2659 2330 or kid_magician@naver.com.</p>"
+
+[params.carousel]
+    enable = true
 
 [params.clients]
 	enable = true

@@ -1,0 +1,9 @@
+weight: 4
+title: "Selfvocal"
+description: >
+  <ul class="list-style-none">
+    <li>보컬트레이닝 안드로이드 어플리케이션</li>
+    <li>녹음과 함께 보컬 트레이너로부터 </li>
+    <li>피트백 받을수 있는 어플리케이션 </li>
+  </ul>
+image: "img/carousel/selfvocal.png"
