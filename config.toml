@@ -1,0 +1,67 @@
+baseurl = "https://example.org"
+title = "Never Stop Study"
+theme = "hugo-universal-theme"
+themesDir = "./themes"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+disqusShortname = "devcows"
+
+googleAnalytics = ""
+
+paginate = 10
+
+[menu]
+
+[[menu.main]]
+	name = "Home"
+	url = "/"
+	weight = 1
+
+[[menu.main]]
+	name = "Contact"
+	url  = "/contact/"
+	weight = 2
+
+[[menu.topbar]]
+    weight = 1
+    name = "Git-Hub"
+    url = "https://github.com/kidMagician"
+    pre = "<i class='fa fa-2x fa-github'></i>"
+
+[[menu.topbar]]
+    weight = 2
+    name ="Blog"
+    url="https://blog.naver.com/kid_magician"
+    pre ="<i class='fa fa-2x fa-pencil-square-o' ></i>"
+
+[[menu.topbar]]
+    weight = 3
+    name = "Email"
+    url = "mailto:kid_magician@naver.com"
+    pre = "<i class='fa fa-2x fa-envelope'></i>"
+
+[params]
+
+	viewMorePostLink = "/blog/"
+	
+	author = "NSS"
+
+	email = "kid_magician@naver.com"
+
+	copyright = "Copyright (c) 2015 - 2018, NSS; all rights reserved."
+
+	logo = "img/logo.png"
+
+	style = "default"
+
+	about_us = "<img src='img/me.png' width='100' height='100' class='img-circle' ><br><p><strong>Nam Seong Sik</strong><br>I love The Android and Python And nodeJS</p>"
+
+	address = "<p>Contact us on 010 2659 2330 or kid_magician@naver.com.<br></p>"
+
+[params.topbar]
+    	enable = true
+        text = "<p>Contact us on 010 2659 2330 or kid_magician@naver.com.</p>"
+
+[params.clients]
+	enable = true
+
