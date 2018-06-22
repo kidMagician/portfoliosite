@@ -1,6 +1,6 @@
 baseurl = "https://example.org"
 title = "Never Stop Study"
-theme = "hugo-universal-theme"
+theme = "theme"
 themesDir = "./"
 languageCode = "en-us"
 defaultContentLanguage = "en"
