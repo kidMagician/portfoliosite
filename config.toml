@@ -18,14 +18,15 @@ paginate = 10
 	weight = 1
 
 [[menu.main]]
-	name = "Contact"
-	url  = "/contact/"
-	weight = 2
+    name = "Portfolio"
+    url  = "/Portfolio/"
+    weight = 2
 
 [[menu.main]]
-    name = "Blog"
-    url  = "/blog/"
-    weight = 3
+	name = "Contact"
+	url  = "/contact/"
+	weight = 3
+
 
 [[menu.topbar]]
     weight = 1
@@ -35,7 +36,7 @@ paginate = 10
 
 [[menu.topbar]]
     weight = 2
-    name ="good"
+    name ="blog"
     url="https://blog.naver.com/kid_magician"
     pre ="<i class='fa fa-2x fa-pencil-square-o' ></i>"
 
@@ -47,32 +48,53 @@ paginate = 10
 
 [params]
 
-	viewMorePostLink = "/blog/"
-	
+	viewMorePostLink = "/portfolio/"
 	author = "NSS"
+    defaultKeywords = ["devows", "hugo", "go"]
+    defaultDescription = "Site template made by devcows using hugo"
 
 	email = "kid_magician@naver.com"
 
 	copyright = "Copyright (c) 2015 - 2018, NSS; all rights reserved."
-
+    
 	logo = "img/logo.png"
 
 	style = "default"
 
-	about_us = "<img src='img/me.png' width='100' height='100' class='img-circle' ><br><p><strong>Nam Seong Sik</strong><br>I love The Android and Python And nodeJS</p>"
+	about_us = "<img src='img/me.png' width='100' height='100' class='img-circle' ><br><p id='nssfont'><strong>남성식</strong><br>시스템 해킹으로 IT세계 입문<br>해킹보다는 새로운 것을 만들고 싶어 프로그래밍을 입문<br>.net 환경에서 최저가 알고리즘 개발<br>현재는 안드로이드, django, nodejs 개발자</p>"
 
-	address = "<p>Contact us on 010 2659 2330 or kid_magician@naver.com.<br></p>"
+	address = "<ul class='list-style-none'><li><p id='nssfont'>tel 010 2659 2330</p></li><li><p id='nssfont'>Email kidmagician@naver.com</p></li></ul>"
+
+    date_format = "January 2, 2006"
 
 [Permalinks]
-    blog = "/blog/:filename/"
+    blog = "/portfolio/:filename/"
+
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
 
 [params.topbar]
     	enable = true
-        text = "<p>Contact us on 010 2659 2330 or kid_magician@naver.com.</p>"
+        text = "<p>Email kid_magician@naver.com</p>"
 
 [params.carousel]
     enable = true
 
+[params.features]
+    enable = true
+    title="Interesting"
+    
+
+[params.see_more]
+    enable = true
+    icon = "fa fa-github"
+    title = "소스코드를 보고 싶으신가요?"
+    subtitle = "저의 github에 여러분을 초대합니다."
+    link_url = "https://github.com/kidMagician"
+    link_text = "Welcome github"
+
 [params.clients]
 	enable = true
-
+    title = "My projects"
